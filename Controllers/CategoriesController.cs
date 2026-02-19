@@ -16,7 +16,7 @@ namespace MyWebApi.Controllers
             _context = context;
         }
 
-        // GET: api/Categories
+        // GET: api/Category
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
